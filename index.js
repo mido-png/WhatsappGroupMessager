@@ -32,7 +32,7 @@ client.on('ready', async () => {
       chat.name?.toLowerCase().includes('scientists arena brainstorm')
   )
 
-  const MESSAGE = `Hey 👋, it's Mide!.\nI'm Connecting with many people and would love to connect with you too. Got your contact from ${chat.name}. Let's build a network of friends focused on sharing meaningful values.\nSave my number as "Mide" and send me your name so I can save yours. 😇`
+  const MESSAGE = `Hey 👋, it's Anonymous!.\nI'm Connecting with many people and would love to connect with you too. Got your contact from ${chat.group we are together}. Let's build a network of friends focused on sharing meaningful values.\nSave my number as "Anonymous" and send me your name so I can save yours. 😇`
   const group = [new GroupChat(client, chat), MESSAGE]
 
   console.log(group)
